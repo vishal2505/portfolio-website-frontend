@@ -1,4 +1,4 @@
-# My Portfolio Webstie
+# My Portfolio Website
 
 ## Cloud Resume Challenge
 
