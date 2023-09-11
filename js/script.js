@@ -49,24 +49,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
 			// TODO
 
-            // const response = await fetch('your-api-url');
+            const response = await fetch('https://aheys2titghqxzulspfbisjhpm0dzrcd.lambda-url.us-east-1.on.aws/');
             
-            //const data = await response.json();
+            const data = await response.json();
 			
             // Assuming the API returns an object with a 'count' property
             //const visitorCount = data.count || 0;
 
 			// Below code need to be removed once api is developed
-			const response = {
-				count: 100, //  mock visitor count
-			};
+			//const response = {
+			//	count: 100, //  mock visitor count
+			//};
 
-			const visitorCount  = response.count
+			//const visitorCount  = response.count
 			// until this point - code need to be removed
             
             // Display the visitor count on the webpage
             const visitorCounter = document.getElementById('visitor-counter');
-            visitorCounter.textContent = `Total Visitors: ${visitorCount}`;
+            visitorCounter.textContent = `Total Visitors: ${data}`;
         } catch (error) {
             console.error('Error fetching visitor count:', error);
             
