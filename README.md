@@ -7,7 +7,7 @@ This portfolio website was developed as part of cloud resume challenge.
 https://cloudresumechallenge.dev/docs/the-challenge/aws/
 
 
-### Part 1 - Backend
+### Part 1 - Frontend
 
 ### Part 2 - Backend
 
